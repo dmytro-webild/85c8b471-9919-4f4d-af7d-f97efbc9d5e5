@@ -29,17 +29,11 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Products",
-          id: "products",
-        },
+          name: "Products",          id: "products"},
         {
-          name: "FAQ",
-          id: "faq",
-        },
+          name: "FAQ",          id: "faq"},
       ]}
       brandName="Peptify"
     />
@@ -48,38 +42,25 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardGallery
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Precision Peptides for Performance"
       description="Peptify delivers pharmaceutical-grade peptides sourced with the highest standards of purity and efficacy. Elevate your research."
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/a-futuristic-scientific-laboratory-setti-1775505033478-f138a781.png?_wi=1",
-          imageAlt: "Laboratory vials",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/a-futuristic-scientific-laboratory-setti-1775505033478-f138a781.png?_wi=1",          imageAlt: "Laboratory vials"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/close-up-shot-of-premium-pharmaceutical--1775505033768-ccc5a7ed.png?_wi=1",
-          imageAlt: "Medical vial",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/close-up-shot-of-premium-pharmaceutical--1775505033768-ccc5a7ed.png?_wi=1",          imageAlt: "Medical vial"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/abstract-visualization-of-molecules-and--1775505032979-4ed56947.png",
-          imageAlt: "Scientific visualization",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/abstract-visualization-of-molecules-and--1775505032979-4ed56947.png",          imageAlt: "Scientific visualization"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/a-futuristic-scientific-laboratory-setti-1775505033478-f138a781.png?_wi=2",
-          imageAlt: "Laboratory vials",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/a-futuristic-scientific-laboratory-setti-1775505033478-f138a781.png?_wi=2",          imageAlt: "Laboratory vials"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/close-up-shot-of-premium-pharmaceutical--1775505033768-ccc5a7ed.png?_wi=2",
-          imageAlt: "Medical vial",
-        },
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/close-up-shot-of-premium-pharmaceutical--1775505033768-ccc5a7ed.png?_wi=2",          imageAlt: "Medical vial"},
       ]}
       mediaAnimation="slide-up"
       buttons={[
         {
-          text: "View Catalog",
-          href: "#products",
-        },
+          text: "View Catalog",          href: "#products"},
       ]}
     />
   </div>
@@ -87,52 +68,27 @@ export default function LandingPage() {
   <div id="products" data-section="products">
       <ProductCardOne
       animationType="slide-up"
-      textboxLayout="default"
+      textboxLayout="split-actions"
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
+      buttons={[
+        {
+            text: "Inquire for Pricing",            href: "mailto:inquiries@peptify.com"
+        }
+      ]}
       products={[
         {
-          id: "1",
-          name: "Tirzepatide",
-          price: "Contact for pricing",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-tirzepatide-in-a-sterile-1775505032194-38e18dca.png",
-          imageAlt: "Tirzepatide Vial",
-        },
+          id: "1",          name: "Tirzepatide",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-tirzepatide-in-a-sterile-1775505032194-38e18dca.png",          imageAlt: "Tirzepatide Vial"},
         {
-          id: "2",
-          name: "Retatrutide",
-          price: "Contact for pricing",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-retatrutide-in-a-sterile-1775505032674-eda4960c.png",
-          imageAlt: "Retatrutide Vial",
-        },
+          id: "2",          name: "Retatrutide",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-retatrutide-in-a-sterile-1775505032674-eda4960c.png",          imageAlt: "Retatrutide Vial"},
         {
-          id: "3",
-          name: "BPC + TB 10MG",
-          price: "Contact for pricing",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-bpc-tb-in-a-sterile-envi-1775505031642-de9329a9.png",
-          imageAlt: "BPC+TB Vial",
-        },
+          id: "3",          name: "BPC + TB 10MG",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-bpc-tb-in-a-sterile-envi-1775505031642-de9329a9.png",          imageAlt: "BPC+TB Vial"},
         {
-          id: "4",
-          name: "KLOW 80MG",
-          price: "Contact for pricing",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-klow-80mg-in-a-sterile-e-1775505032645-950fd706.png",
-          imageAlt: "KLOW Vial",
-        },
+          id: "4",          name: "KLOW 80MG",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-klow-80mg-in-a-sterile-e-1775505032645-950fd706.png",          imageAlt: "KLOW Vial"},
         {
-          id: "5",
-          name: "MOTS-C 10MG",
-          price: "Contact for pricing",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-mots-c-in-a-sterile-envi-1775505033701-d7599eb5.png",
-          imageAlt: "MOTS-C Vial",
-        },
+          id: "5",          name: "MOTS-C 10MG",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-mots-c-in-a-sterile-envi-1775505033701-d7599eb5.png",          imageAlt: "MOTS-C Vial"},
         {
-          id: "6",
-          name: "NAD+ 500MG",
-          price: "Contact for pricing",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-nad-500mg-in-a-sterile-e-1775505033201-78ee626f.png",
-          imageAlt: "NAD+ Vial",
-        },
+          id: "6",          name: "NAD+ 500MG",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-nad-500mg-in-a-sterile-e-1775505033201-78ee626f.png",          imageAlt: "NAD+ Vial"},
       ]}
       title="Our Peptide Collection"
       description="Pharmaceutical grade compounds in high-potency concentrations."
@@ -144,30 +100,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "1",
-          title: "What are peptides?",
-          content: "Peptides are short chains of amino acids that act as building blocks of proteins and signaling molecules in the body.",
-        },
+          id: "1",          title: "What are peptides?",          content: "Peptides are short chains of amino acids that act as building blocks of proteins and signaling molecules in the body."},
         {
-          id: "2",
-          title: "Are these for human consumption?",
-          content: "No, all products sold by Peptify are for laboratory research purposes only and not for human consumption.",
-        },
+          id: "2",          title: "Are these for human consumption?",          content: "No, all products sold by Peptify are for laboratory research purposes only and not for human consumption."},
         {
-          id: "3",
-          title: "How do I store my vials?",
-          content: "Most peptides should be stored in a cool, dry place away from direct sunlight, often in the refrigerator after reconstitution.",
-        },
+          id: "3",          title: "How do I store my vials?",          content: "Most peptides should be stored in a cool, dry place away from direct sunlight, often in the refrigerator after reconstitution."},
         {
-          id: "4",
-          title: "How do you ensure purity?",
-          content: "We utilize third-party laboratory testing to ensure all products meet our high purity and potency standards.",
-        },
+          id: "4",          title: "How do you ensure purity?",          content: "We utilize third-party laboratory testing to ensure all products meet our high purity and potency standards."},
         {
-          id: "5",
-          title: "What is reconstitution?",
-          content: "Reconstitution is the process of mixing lyophilized powder with a solvent like bacteriostatic water for research use.",
-        },
+          id: "5",          title: "What is reconstitution?",          content: "Reconstitution is the process of mixing lyophilized powder with a solvent like bacteriostatic water for research use."},
       ]}
       sideTitle="Peptide Research FAQ"
       sideDescription="Frequently asked questions regarding our peptides, purity, and usage standards."
@@ -183,30 +124,15 @@ export default function LandingPage() {
       metricsAnimation="slide-up"
       metrics={[
         {
-          id: "m1",
-          value: "99.9%",
-          description: "Average purity",
-        },
+          id: "m1",          value: "99.9%",          description: "Average purity"},
         {
-          id: "m2",
-          value: "24h",
-          description: "Support response",
-        },
+          id: "m2",          value: "24h",          description: "Support response"},
         {
-          id: "m3",
-          value: "500+",
-          description: "Research labs",
-        },
+          id: "m3",          value: "500+",          description: "Research labs"},
         {
-          id: "m4",
-          value: "3rd Party",
-          description: "Verified tested",
-        },
+          id: "m4",          value: "3rd Party",          description: "Verified tested"},
         {
-          id: "m5",
-          value: "Global",
-          description: "Shipping reach",
-        },
+          id: "m5",          value: "Global",          description: "Shipping reach"},
       ]}
     />
   </div>
@@ -218,12 +144,7 @@ export default function LandingPage() {
       title="Trusted by Researchers"
       description="Leading laboratories rely on Peptify for consistent, reliable chemical compounds."
       names={[
-        "Bioscience Labs",
-        "Genomic Research",
-        "Peptide Dynamics",
-        "Clinical Studies",
-        "Advanced Proteomics",
-      ]}
+        "Bioscience Labs",        "Genomic Research",        "Peptide Dynamics",        "Clinical Studies",        "Advanced Proteomics"]}
       tag="Partners"
     />
   </div>
@@ -232,33 +153,21 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About Us",
-              href: "#",
-            },
+              label: "About Us",              href: "#"},
             {
-              label: "Shipping Policy",
-              href: "#",
-            },
+              label: "Shipping Policy",              href: "#"},
             {
-              label: "Terms of Service",
-              href: "#",
-            },
+              label: "Terms of Service",              href: "#"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Disclaimer",
-              href: "#",
-            },
+              label: "Disclaimer",              href: "#"},
           ],
         },
       ]}
