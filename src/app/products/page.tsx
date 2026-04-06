@@ -39,6 +39,7 @@ export default function ProductsPage() {
             useInvertedBackground={false}
             title="Full Research Catalog"
             description="Complete list of pharmaceutical-grade research compounds."
+            buttons={[{ text: "Contact for Pricing", href: "/contact" }]}
             products={[
                 { id: "t1", name: "Tirzepatide 10mg", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-tirzepatide-in-a-sterile-1775505032194-38e18dca.png?_wi=2", variant: "10mg" },
                 { id: "t2", name: "Tirzepatide 20mg", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-tirzepatide-in-a-sterile-1775505032194-38e18dca.png?_wi=2", variant: "20mg" },
