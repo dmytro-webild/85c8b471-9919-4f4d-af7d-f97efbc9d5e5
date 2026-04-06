@@ -5,6 +5,7 @@ import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
+import { ExternalLink } from "lucide-react";
 
 export default function ContactPage() {
   return (
@@ -47,6 +48,18 @@ export default function ContactPage() {
                 mediaPosition="right"
                 imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/a-futuristic-scientific-laboratory-setti-1775505033478-f138a781.png?_wi=1"
             />
+            
+            <div className="flex justify-center items-center gap-4 py-8">
+                <p className="text-lg font-medium">Connect with us on Instagram: <span className="text-primary">@peptifydr</span></p>
+                <a 
+                    href="https://instagram.com/peptifydr" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="flex items-center gap-2 px-6 py-2 bg-primary text-white rounded-full hover:opacity-90 transition-opacity"
+                >
+                    Follow Us <ExternalLink size={16} />
+                </a>
+            </div>
         </div>
 
         <div id="footer" data-section="footer">
