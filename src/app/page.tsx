@@ -57,7 +57,7 @@ export default function LandingPage() {
 
   <div id="quality" data-section="quality">
     <AboutMetric
-      title="Quality Assured Standards"
+      title="Quality Assured Standards (Third-Party Verified)"
       metrics={[
         { icon: ShieldCheck, label: "HPLC Verified", value: "99%+ Purity" },
         { icon: ShieldCheck, label: "Third-Party Testing", value: "Batch Certified" }
