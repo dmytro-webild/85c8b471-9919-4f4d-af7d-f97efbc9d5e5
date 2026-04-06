@@ -89,7 +89,7 @@ export default function LandingPage() {
         { id: "2", name: "Retatrutide", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-retatrutide-in-a-sterile-1775505032674-eda4960c.png?_wi=1", imageAlt: "Retatrutide Vial", variant: "10mg" },
         { id: "3", name: "BPC + TB 10MG", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-bpc-tb-in-a-sterile-envi-1775505031642-de9329a9.png?_wi=1", imageAlt: "BPC+TB Vial", variant: "10mg" },
       ]}
-      title="Our Peptide Collection"
+      title="Premium Research Compounds"
       description="Pharmaceutical grade compounds in high-potency concentrations."
     />
   </div>
