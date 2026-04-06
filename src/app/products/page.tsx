@@ -35,7 +35,7 @@ export default function ProductsPage() {
             <ProductCardFour
             animationType="slide-up"
             textboxLayout="default"
-            gridVariant="uniform-all-items-equal"
+            gridVariant="one-large-right-three-stacked-left"
             useInvertedBackground={false}
             title="Full Research Catalog"
             description="Complete list of pharmaceutical-grade research compounds."
