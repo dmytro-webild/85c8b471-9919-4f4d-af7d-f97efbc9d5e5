@@ -50,7 +50,7 @@ export default function ProductsPage() {
 
         <FooterSimple
             columns={[
-                { title: "Company", items: [{ label: "Home", href: "/" }, { label: "Products", href: "/products" }] },
+                { title: "Company", items: [{ label: "Home", href: "/" }, { label: "Products", href: "/products" }, { label: "FAQ", href: "/faq" }, { label: "Contact", href: "/contact" }] },
                 { title: "Legal", items: [{ label: "Privacy", href: "#" }] },
             ]}
             bottomLeftText="© 2024 Peptify. For Research Use Only."
