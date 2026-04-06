@@ -78,13 +78,13 @@ export default function LandingPage() {
       ]}
       products={[
         {
-          id: "1",          name: "Tirzepatide",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-tirzepatide-in-a-sterile-1775505032194-38e18dca.png",          imageAlt: "Tirzepatide Vial"},
+          id: "1",          name: "Tirzepatide",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-tirzepatide-in-a-sterile-1775505032194-38e18dca.png?_wi=1",          imageAlt: "Tirzepatide Vial"},
         {
-          id: "2",          name: "Retatrutide",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-retatrutide-in-a-sterile-1775505032674-eda4960c.png",          imageAlt: "Retatrutide Vial"},
+          id: "2",          name: "Retatrutide",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-retatrutide-in-a-sterile-1775505032674-eda4960c.png?_wi=1",          imageAlt: "Retatrutide Vial"},
         {
-          id: "3",          name: "BPC + TB 10MG",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-bpc-tb-in-a-sterile-envi-1775505031642-de9329a9.png",          imageAlt: "BPC+TB Vial"},
+          id: "3",          name: "BPC + TB 10MG",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-bpc-tb-in-a-sterile-envi-1775505031642-de9329a9.png?_wi=1",          imageAlt: "BPC+TB Vial"},
         {
-          id: "4",          name: "KLOW 80MG",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-klow-80mg-in-a-sterile-e-1775505032645-950fd706.png",          imageAlt: "KLOW Vial"},
+          id: "4",          name: "KLOW 80MG",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-klow-80mg-in-a-sterile-e-1775505032645-950fd706.png?_wi=1",          imageAlt: "KLOW Vial"},
         {
           id: "5",          name: "MOTS-C 10MG",          price: "Contact for pricing",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-mots-c-in-a-sterile-envi-1775505033701-d7599eb5.png",          imageAlt: "MOTS-C Vial"},
         {
