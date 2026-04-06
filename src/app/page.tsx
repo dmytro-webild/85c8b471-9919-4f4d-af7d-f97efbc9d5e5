@@ -34,6 +34,8 @@ export default function LandingPage() {
           name: "Products",          id: "products"},
         {
           name: "FAQ",          id: "faq"},
+        {
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="Peptify"
     />
@@ -73,7 +75,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       buttons={[
         {
-            text: "Inquire for Pricing",            href: "mailto:inquiries@peptify.com"
+            text: "Contact for Pricing",            href: "/contact"
         }
       ]}
       products={[
