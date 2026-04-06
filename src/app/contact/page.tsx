@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
+import FooterSimple from '@/components/sections/footer/FooterSimple';
 
 export default function ContactPage() {
   return (
@@ -41,6 +42,14 @@ export default function ContactPage() {
             useInvertedBackground={false}
           />
         </div>
+        <FooterSimple
+            columns={[
+                { title: "Company", items: [{ label: "Home", href: "/" }, { label: "Products", href: "/products" }, { label: "FAQ", href: "/faq" }, { label: "Contact", href: "/contact" }] },
+                { title: "Legal", items: [{ label: "Privacy", href: "#" }] },
+            ]}
+            bottomLeftText="© 2024 Peptify. For Research Use Only."
+            bottomRightText="All rights reserved."
+        />
       </ReactLenis>
     </ThemeProvider>
   );
