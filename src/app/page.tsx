@@ -54,11 +54,11 @@ export default function LandingPage() {
       description="Peptify delivers pharmaceutical-grade peptides sourced with the highest standards of purity and efficacy. Elevate your research."
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/a-futuristic-scientific-laboratory-setti-1775505033478-f138a781.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/a-futuristic-scientific-laboratory-setti-1775505033478-f138a781.png?_wi=1",
           imageAlt: "Laboratory vials",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/close-up-shot-of-premium-pharmaceutical--1775505033768-ccc5a7ed.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/close-up-shot-of-premium-pharmaceutical--1775505033768-ccc5a7ed.png?_wi=1",
           imageAlt: "Medical vial",
         },
         {
@@ -66,11 +66,11 @@ export default function LandingPage() {
           imageAlt: "Scientific visualization",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/a-futuristic-scientific-laboratory-setti-1775505033478-f138a781.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/a-futuristic-scientific-laboratory-setti-1775505033478-f138a781.png?_wi=2",
           imageAlt: "Laboratory vials",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/close-up-shot-of-premium-pharmaceutical--1775505033768-ccc5a7ed.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/close-up-shot-of-premium-pharmaceutical--1775505033768-ccc5a7ed.png?_wi=2",
           imageAlt: "Medical vial",
         },
       ]}
