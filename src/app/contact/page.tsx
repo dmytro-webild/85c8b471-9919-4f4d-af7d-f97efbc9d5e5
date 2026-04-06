@@ -34,9 +34,10 @@ export default function ContactPage() {
           <ContactCTA 
             tag="Get in Touch"
             title="Contact Our Team"
-            description="Reach out for wholesale inquiries, custom orders, or any questions regarding our high-purity research peptides."
+            description="Reach out for wholesale inquiries, custom orders, or any questions regarding our high-purity research peptides. You can reach us at pepscience22@gmail.com or follow us on Instagram @peptify."
             buttons={[
-              { text: "Email Us", href: "mailto:inquiries@peptify.com" }
+              { text: "Email Us", href: "mailto:pepscience22@gmail.com" },
+              { text: "Instagram", href: "https://instagram.com/peptify" }
             ]}
             background={{ variant: "plain" }}
             useInvertedBackground={false}
