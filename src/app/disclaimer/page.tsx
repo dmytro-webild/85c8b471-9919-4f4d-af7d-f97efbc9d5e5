@@ -2,11 +2,11 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
+import LegalSection from '@/components/legal/LegalSection';
 
-export default function ContactPage() {
+export default function DisclaimerPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="bounce-effect"
@@ -31,15 +31,14 @@ export default function ContactPage() {
             brandName="Peptify"
         />
         <div className="pt-32 pb-20">
-          <ContactCTA 
-            tag="Get in Touch"
-            title="Contact Our Team"
-            description="Reach out for wholesale inquiries, custom orders, or any questions regarding our high-purity research peptides."
-            buttons={[
-              { text: "Email Us", href: "mailto:inquiries@peptify.com" }
+          <LegalSection 
+            layout="page"
+            title="Disclaimer"
+            sections={[
+                { heading: "Research Use Only", content: [{ type: "paragraph", text: "All products provided by Peptify are for laboratory research use only. They are not intended for human consumption or for use in any veterinary applications." }] },
+                { heading: "No Liability", content: [{ type: "paragraph", text: "Peptify assumes no responsibility for the misuse of these products. Users are responsible for ensuring compliance with all local laws and research safety protocols." }] },
+                { heading: "Qualification", content: [{ type: "paragraph", text: "By purchasing our products, you confirm that you are a qualified researcher or working within a professional laboratory environment." }] }
             ]}
-            background={{ variant: "plain" }}
-            useInvertedBackground={false}
           />
         </div>
         <FooterSimple

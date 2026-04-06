@@ -2,11 +2,11 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
+import LegalSection from '@/components/legal/LegalSection';
 
-export default function ContactPage() {
+export default function TermsPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="bounce-effect"
@@ -31,15 +31,14 @@ export default function ContactPage() {
             brandName="Peptify"
         />
         <div className="pt-32 pb-20">
-          <ContactCTA 
-            tag="Get in Touch"
-            title="Contact Our Team"
-            description="Reach out for wholesale inquiries, custom orders, or any questions regarding our high-purity research peptides."
-            buttons={[
-              { text: "Email Us", href: "mailto:inquiries@peptify.com" }
+          <LegalSection 
+            layout="page"
+            title="Terms and Conditions"
+            sections={[
+                { heading: "Acceptance of Terms", content: [{ type: "paragraph", text: "By accessing this website, you agree to comply with these terms of use. If you do not agree with any part, please discontinue use immediately." }] },
+                { heading: "Ordering", content: [{ type: "paragraph", text: "Orders are subject to verification and availability. We reserve the right to refuse service if research legitimacy cannot be established." }] },
+                { heading: "Intellectual Property", content: [{ type: "paragraph", text: "All content, graphics, and research summaries remain the property of Peptify and may not be reproduced without written consent." }] }
             ]}
-            background={{ variant: "plain" }}
-            useInvertedBackground={false}
           />
         </div>
         <FooterSimple

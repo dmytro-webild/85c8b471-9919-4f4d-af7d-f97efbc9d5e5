@@ -2,11 +2,11 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
+import LegalSection from '@/components/legal/LegalSection';
 
-export default function ContactPage() {
+export default function PrivacyPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="bounce-effect"
@@ -31,15 +31,14 @@ export default function ContactPage() {
             brandName="Peptify"
         />
         <div className="pt-32 pb-20">
-          <ContactCTA 
-            tag="Get in Touch"
-            title="Contact Our Team"
-            description="Reach out for wholesale inquiries, custom orders, or any questions regarding our high-purity research peptides."
-            buttons={[
-              { text: "Email Us", href: "mailto:inquiries@peptify.com" }
+          <LegalSection 
+            layout="page"
+            title="Privacy Policy"
+            sections={[
+                { heading: "Information Collection", content: [{ type: "paragraph", text: "We respect your privacy and are committed to protecting your personal data. We only collect essential information required for processing orders and research communications." }] },
+                { heading: "Data Usage", content: [{ type: "paragraph", text: "Your information is used solely for the purpose of fulfilling your orders, improving our services, and maintaining laboratory records according to industry compliance standards." }] },
+                { heading: "Security", content: [{ type: "paragraph", text: "All data is encrypted and handled with the utmost security protocols to prevent unauthorized access or disclosure." }] }
             ]}
-            background={{ variant: "plain" }}
-            useInvertedBackground={false}
           />
         </div>
         <FooterSimple

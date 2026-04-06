@@ -114,7 +114,7 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         { title: "Company", items: [{ label: "Home", href: "/" }, { label: "Products", href: "/products" }, { label: "FAQ", href: "/faq" }, { label: "Contact", href: "/contact" }] },
-        { title: "Legal", items: [{ label: "Privacy Policy", href: "/legal/privacy" }, { label: "Disclaimer", href: "/legal/disclaimer" }, { label: "Legal", href: "/legal" }] },
+        { title: "Legal", items: [{ label: "Privacy Policy", href: "/privacy" }, { label: "Disclaimer", href: "/disclaimer" }, { label: "Terms", href: "/terms" }] },
       ]}
       bottomLeftText="© 2024 Peptify. For Research Use Only."
       bottomRightText="All rights reserved."
