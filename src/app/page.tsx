@@ -57,12 +57,12 @@ export default function LandingPage() {
 
   <div id="quality" data-section="quality">
     <AboutMetric
-      title="Quality Assured Standards (Third-Party Verified)"
+      title="Quality Assured Standards"
       metrics={[
-        { icon: ShieldCheck, label: "HPLC Verified", value: "99%+ Purity" },
-        { icon: FileCheck, label: "Batch Certified", value: "ISO 9001" },
-        { icon: Microscope, label: "Purity Analysis", value: "MS Verified" },
-        { icon: FlaskConical, label: "Lab Grade", value: "Sterile Tested" }
+        { icon: ShieldCheck, label: "HPLC Verified", value: "99%+ Purity Guaranteed" },
+        { icon: FileCheck, label: "Batch Certified", value: "ISO 9001 Compliant" },
+        { icon: Microscope, label: "Purity Analysis", value: "MS Verification" },
+        { icon: FlaskConical, label: "Lab Grade", value: "Sterile Tested High Purity" }
       ]}
       metricsAnimation="slide-up"
       useInvertedBackground={false}
