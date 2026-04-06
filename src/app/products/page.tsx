@@ -26,6 +26,7 @@ export default function ProductsPage() {
                 { name: "Home", id: "/" },
                 { name: "Products", id: "/products" },
                 { name: "FAQ", id: "/faq" },
+                { name: "Contact", id: "/contact" }
             ]}
             brandName="Peptify"
         />
@@ -37,19 +38,19 @@ export default function ProductsPage() {
             gridVariant="four-items-2x2-equal-grid"
             useInvertedBackground={false}
             title="Standard Product Catalog"
-            description="Browse our comprehensive list of pharmaceutical-grade research peptides, optimized for easy e-store browsing."
+            description="Browse our comprehensive list of pharmaceutical-grade research peptides."
             products={[
                 { id: "1", name: "Tirzepatide", price: "Inquire", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-tirzepatide-in-a-sterile-1775505032194-38e18dca.png?_wi=2" },
                 { id: "2", name: "Retatrutide", price: "Inquire", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-retatrutide-in-a-sterile-1775505032674-eda4960c.png?_wi=2" },
-                { id: "3", name: "BPC + TB 10MG", price: "Inquire", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-bpc-tb-in-a-sterile-envi-1775505031642-de9329a9.png?_wi=2" },
-                { id: "4", name: "KLOW 80MG", price: "Inquire", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-klow-80mg-in-a-sterile-e-1775505032645-950fd706.png?_wi=2" },
+                { id: "3", name: "MOTS-C 10MG", price: "Inquire", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-mots-c-in-a-sterile-envi-1775505033701-d7599eb5.png" },
+                { id: "4", name: "NAD+ 500MG", price: "Inquire", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-nad-500mg-in-a-sterile-e-1775505033201-78ee626f.png" },
             ]}
             />
         </div>
 
         <FooterSimple
             columns={[
-                { title: "Company", items: [{ label: "Home", href: "/" }] },
+                { title: "Company", items: [{ label: "Home", href: "/" }, { label: "Products", href: "/products" }] },
                 { title: "Legal", items: [{ label: "Privacy", href: "#" }] },
             ]}
             bottomLeftText="© 2024 Peptify. For Research Use Only."
