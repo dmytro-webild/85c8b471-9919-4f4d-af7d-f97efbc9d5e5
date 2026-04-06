@@ -35,6 +35,7 @@ export default function FaqPage() {
             sideTitle="Peptide Research FAQ"
             sideDescription="Common questions regarding research peptides, purity, and handling standards."
             faqsAnimation="blur-reveal"
+            useInvertedBackground={false}
             faqs={[
               { id: "1", title: "What are research peptides?", content: "Peptides are short chains of amino acids. Our research peptides are high-purity compounds intended strictly for laboratory and research use." },
               { id: "2", title: "Are these products for human use?", content: "No. All products sold by Peptify are for laboratory research and forensic use only. They are not intended for human consumption or therapeutic use." },
