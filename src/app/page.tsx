@@ -7,7 +7,7 @@ import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
-import { ShieldCheck, Users } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
 import AboutMetric from '@/components/sections/about/AboutMetric';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 
@@ -73,6 +73,7 @@ export default function LandingPage() {
       names={["Advanced Science Inst.", "Global Bio-Research", "Metabolic Studies Group", "Peptide Analysis Lab", "Cellular Dynamics Inc."]}
       description="Leading laboratories trust our high-purity compounds for their critical studies."
       useInvertedBackground={false}
+      textboxLayout="default"
     />
   </div>
 
