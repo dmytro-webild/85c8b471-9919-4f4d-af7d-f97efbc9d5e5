@@ -7,6 +7,9 @@ import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
+import { ShieldCheck, Users } from "lucide-react";
+import AboutMetric from '@/components/sections/about/AboutMetric';
+import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 
 export default function LandingPage() {
   return (
@@ -49,6 +52,27 @@ export default function LandingPage() {
       buttons={[
         { text: "View Catalog", href: "/products" },
       ]}
+    />
+  </div>
+
+  <div id="quality" data-section="quality">
+    <AboutMetric
+      title="Quality Assured Standards"
+      metrics={[
+        { icon: ShieldCheck, label: "HPLC Verified", value: "99%+ Purity" },
+        { icon: ShieldCheck, label: "Third-Party Testing", value: "Batch Certified" }
+      ]}
+      metricsAnimation="slide-up"
+      useInvertedBackground={false}
+    />
+  </div>
+
+  <div id="trusted" data-section="trusted">
+    <SocialProofOne
+      title="Trusted by Researchers"
+      names={["Advanced Science Inst.", "Global Bio-Research", "Metabolic Studies Group", "Peptide Analysis Lab", "Cellular Dynamics Inc."]}
+      description="Leading laboratories trust our high-purity compounds for their critical studies."
+      useInvertedBackground={false}
     />
   </div>
 
