@@ -7,7 +7,7 @@ import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
-import { ShieldCheck } from "lucide-react";
+import { ShieldCheck, FileCheck, FlaskConical, Microscope } from "lucide-react";
 import AboutMetric from '@/components/sections/about/AboutMetric';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 
@@ -60,7 +60,9 @@ export default function LandingPage() {
       title="Quality Assured Standards (Third-Party Verified)"
       metrics={[
         { icon: ShieldCheck, label: "HPLC Verified", value: "99%+ Purity" },
-        { icon: ShieldCheck, label: "Third-Party Testing", value: "Batch Certified" }
+        { icon: FileCheck, label: "Batch Certified", value: "ISO 9001" },
+        { icon: Microscope, label: "Purity Analysis", value: "MS Verified" },
+        { icon: FlaskConical, label: "Lab Grade", value: "Sterile Tested" }
       ]}
       metricsAnimation="slide-up"
       useInvertedBackground={false}
