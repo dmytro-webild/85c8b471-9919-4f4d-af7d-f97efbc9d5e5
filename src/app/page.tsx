@@ -8,7 +8,7 @@ import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGaller
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import { ShieldCheck, FileCheck, FlaskConical, Microscope } from "lucide-react";
-import AboutMetric from '@/components/sections/about/AboutMetric';
+import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 
 export default function LandingPage() {
@@ -87,13 +87,14 @@ export default function LandingPage() {
   </div>
 
   <div id="quality" data-section="quality">
-    <AboutMetric
+    <MetricCardFourteen
       title="Quality Assured Standards"
+      tag="Our Commitment"
       metrics={[
-        { icon: ShieldCheck, label: "HPLC Verified", value: "99%+ Purity Guaranteed" },
-        { icon: FileCheck, label: "Batch Certified", value: "ISO 9001 Compliant" },
-        { icon: Microscope, label: "Purity Analysis", value: "MS Verification" },
-        { icon: FlaskConical, label: "Lab Grade", value: "Sterile Tested High Purity" }
+        { id: "1", icon: ShieldCheck, value: "99%+ Purity Guaranteed", description: "HPLC Verified" },
+        { id: "2", icon: FileCheck, value: "ISO 9001 Compliant", description: "Batch Certified" },
+        { id: "3", icon: Microscope, value: "MS Verification", description: "Purity Analysis" },
+        { id: "4", icon: FlaskConical, value: "Sterile Tested", description: "High Purity Lab Grade" }
       ]}
       metricsAnimation="slide-up"
       useInvertedBackground={false}
