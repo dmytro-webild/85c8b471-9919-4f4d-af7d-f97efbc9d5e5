@@ -5,10 +5,8 @@ import ReactLenis from "lenis/react";
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
-import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
-import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 
 export default function LandingPage() {
   return (
@@ -30,7 +28,7 @@ export default function LandingPage() {
       navItems={[
         { name: "Home", id: "/" },
         { name: "Products", id: "/products" },
-        { name: "FAQ", id: "#faq" },
+        { name: "FAQ", id: "/faq" },
         { name: "Contact", id: "/contact" },
       ]}
       brandName="Peptify"
@@ -88,7 +86,7 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterSimple
       columns={[
-        { title: "Company", items: [{ label: "Home", href: "/" }, { label: "Products", href: "/products" }, { label: "Contact", href: "/contact" }] },
+        { title: "Company", items: [{ label: "Home", href: "/" }, { label: "Products", href: "/products" }, { label: "FAQ", href: "/faq" }, { label: "Contact", href: "/contact" }] },
         { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Disclaimer", href: "#" }] },
       ]}
       bottomLeftText="© 2024 Peptify. For Research Use Only."
