@@ -55,30 +55,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="quality" data-section="quality">
-    <AboutMetric
-      title="Quality Assured Standards"
-      metrics={[
-        { icon: ShieldCheck, label: "HPLC Verified", value: "99%+ Purity Guaranteed" },
-        { icon: FileCheck, label: "Batch Certified", value: "ISO 9001 Compliant" },
-        { icon: Microscope, label: "Purity Analysis", value: "MS Verification" },
-        { icon: FlaskConical, label: "Lab Grade", value: "Sterile Tested High Purity" }
-      ]}
-      metricsAnimation="slide-up"
-      useInvertedBackground={false}
-    />
-  </div>
-
-  <div id="trusted" data-section="trusted">
-    <SocialProofOne
-      title="Trusted by Researchers"
-      names={["Advanced Science Inst.", "Global Bio-Research", "Metabolic Studies Group", "Peptide Analysis Lab", "Cellular Dynamics Inc."]}
-      description="Leading laboratories trust our high-purity compounds for their critical studies."
-      useInvertedBackground={false}
-      textboxLayout="default"
-    />
-  </div>
-
   <div id="products" data-section="products">
       <ProductCardFour
       animationType="slide-up"
@@ -107,6 +83,30 @@ export default function LandingPage() {
       sideTitle="Peptide Research FAQ"
       sideDescription="Frequently asked questions regarding our peptides, purity, and usage standards."
       faqsAnimation="blur-reveal"
+    />
+  </div>
+
+  <div id="quality" data-section="quality">
+    <AboutMetric
+      title="Quality Assured Standards"
+      metrics={[
+        { icon: ShieldCheck, label: "HPLC Verified", value: "99%+ Purity Guaranteed" },
+        { icon: FileCheck, label: "Batch Certified", value: "ISO 9001 Compliant" },
+        { icon: Microscope, label: "Purity Analysis", value: "MS Verification" },
+        { icon: FlaskConical, label: "Lab Grade", value: "Sterile Tested High Purity" }
+      ]}
+      metricsAnimation="slide-up"
+      useInvertedBackground={false}
+    />
+  </div>
+
+  <div id="trusted" data-section="trusted">
+    <SocialProofOne
+      title="Trusted by Researchers"
+      names={["Advanced Science Inst.", "Global Bio-Research", "Metabolic Studies Group", "Peptide Analysis Lab", "Cellular Dynamics Inc."]}
+      description="Leading laboratories trust our high-purity compounds for their critical studies."
+      useInvertedBackground={false}
+      textboxLayout="default"
     />
   </div>
 
