@@ -56,7 +56,7 @@ export default function LandingPage() {
       <ProductCardOne
       animationType="slide-up"
       textboxLayout="split-actions"
-      gridVariant="three-columns-all-equal-width"
+      gridVariant="one-large-left-three-stacked-right"
       useInvertedBackground={false}
       buttons={[{ text: "Contact for Pricing", href: "/contact" }]}
       products={[
