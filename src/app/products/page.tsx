@@ -35,18 +35,14 @@ export default function ProductsPage() {
             <ProductCardFour
             animationType="slide-up"
             textboxLayout="default"
-            gridVariant="one-large-right-three-stacked-left"
+            gridVariant="uniform-all-items-equal"
             useInvertedBackground={false}
             title="Full Research Catalog"
             description="Complete list of pharmaceutical-grade research compounds."
             buttons={[{ text: "Contact for Pricing", href: "/contact" }]}
             products={[
-                { id: "t1", name: "Tirzepatide 10mg", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-tirzepatide-in-a-sterile-1775505032194-38e18dca.png?_wi=2", variant: "10mg" },
-                { id: "t2", name: "Tirzepatide 20mg", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-tirzepatide-in-a-sterile-1775505032194-38e18dca.png?_wi=2", variant: "20mg" },
-                { id: "t3", name: "Tirzepatide 30mg", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-tirzepatide-in-a-sterile-1775505032194-38e18dca.png?_wi=2", variant: "30mg" },
-                { id: "r1", name: "Retatrutide 10mg", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-retatrutide-in-a-sterile-1775505032674-eda4960c.png?_wi=2", variant: "10mg" },
-                { id: "r2", name: "Retatrutide 20mg", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-retatrutide-in-a-sterile-1775505032674-eda4960c.png?_wi=2", variant: "20mg" },
-                { id: "r3", name: "Retatrutide 30mg", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-retatrutide-in-a-sterile-1775505032674-eda4960c.png?_wi=2", variant: "30mg" },
+                { id: "t1", name: "Tirzepatide", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-tirzepatide-in-a-sterile-1775505032194-38e18dca.png?_wi=2", variant: "10mg, 20mg, 30mg available" },
+                { id: "r1", name: "Retatrutide", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-retatrutide-in-a-sterile-1775505032674-eda4960c.png?_wi=2", variant: "10mg, 20mg, 30mg available" },
                 { id: "bpc", name: "BPC+TB 10MG", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-bpc-tb-in-a-sterile-envi-1775505031642-de9329a9.png?_wi=1", variant: "10mg" },
                 { id: "klow", name: "KLOW 80MG", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-nad-500mg-in-a-sterile-e-1775505033201-78ee626f.png?_wi=1", variant: "80mg" },
                 { id: "mots", name: "MOTS-C 10mg", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-mots-c-in-a-sterile-envi-1775505033701-d7599eb5.png", variant: "10mg" },
