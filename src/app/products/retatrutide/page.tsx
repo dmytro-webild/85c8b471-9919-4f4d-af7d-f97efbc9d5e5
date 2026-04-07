@@ -35,8 +35,8 @@ export default function RetatrutidePage() {
           title="Retatrutide"
           subtitle="Biological Mechanisms & Research Applications"
           sections={[
-            { heading: "Biological Mechanism", content: { type: "paragraph", text: "Retatrutide acts as a triple agonist, targeting GIP, GLP-1, and glucagon receptors. This triple-action approach allows researchers to observe more complex metabolic regulation, focusing on signaling pathways that govern energy balance and lipid metabolism." } },
-            { heading: "Research Value", content: { type: "paragraph", text: "As a novel research compound, Retatrutide is being utilized to investigate advanced metabolic pathways and the synergistic effects of multi-receptor agonism on cellular response." } }
+            { heading: "Biological Mechanism", content: { text: "Retatrutide acts as a triple agonist, targeting GIP, GLP-1, and glucagon receptors. This triple-action approach allows researchers to observe more complex metabolic regulation, focusing on signaling pathways that govern energy balance and lipid metabolism." } },
+            { heading: "Research Value", content: { text: "As a novel research compound, Retatrutide is being utilized to investigate advanced metabolic pathways and the synergistic effects of multi-receptor agonism on cellular response." } }
           ]}
         />
         <FooterSimple
