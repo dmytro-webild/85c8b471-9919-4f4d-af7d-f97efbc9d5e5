@@ -26,9 +26,6 @@ export default function KlowPage() {
             { name: "Products", id: "/products" },
             { name: "FAQ", id: "/faq" },
             { name: "Contact", id: "/contact" },
-            { name: "Klow", id: "/klow" },
-            { name: "Mots-c", id: "/mots-c" },
-            { name: "NAD+", id: "/nad-plus" },
           ]}
           brandName="Peptify"
         />
@@ -41,7 +38,6 @@ export default function KlowPage() {
         <FooterSimple
           columns={[
             { title: "Company", items: [{ label: "Home", href: "/" }, { label: "Products", href: "/products" }, { label: "FAQ", href: "/faq" }, { label: "Contact", href: "/contact" }] },
-            { title: "Compounds", items: [{ label: "Klow", href: "/klow" }, { label: "Mots-c", href: "/mots-c" }, { label: "NAD+", href: "/nad-plus" }] },
             { title: "Legal", items: [{ label: "Privacy Policy", href: "/privacy" }, { label: "Disclaimer", href: "/disclaimer" }, { label: "Terms", href: "/terms" }] },
           ]}
           bottomLeftText="© 2025 Peptify"
