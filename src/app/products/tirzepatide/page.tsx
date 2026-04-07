@@ -35,8 +35,8 @@ export default function TirzepatidePage() {
           title="Tirzepatide"
           subtitle="Biological Mechanisms & Research Applications"
           sections={[
-            { heading: "Biological Mechanism", content: { text: "Tirzepatide acts as a dual agonist for the Glucose-dependent Insulinotropic Polypeptide (GIP) and Glucagon-Like Peptide-1 (GLP-1) receptors. By stimulating these receptors, it influences insulin secretion, glucagon suppression, and gastric emptying, playing a critical role in metabolic pathway studies." } },
-            { heading: "Research Value", content: { text: "Widely studied for its impact on metabolic health, Tirzepatide serves as a significant compound for understanding glucose homeostasis and appetite regulation mechanisms in research environments." } }
+            { heading: "Biological Mechanism", content: { type: "paragraph", text: "Tirzepatide acts as a dual agonist for the Glucose-dependent Insulinotropic Polypeptide (GIP) and Glucagon-Like Peptide-1 (GLP-1) receptors. By stimulating these receptors, it influences insulin secretion, glucagon suppression, and gastric emptying, playing a critical role in metabolic pathway studies." } },
+            { heading: "Research Value", content: { type: "paragraph", text: "Widely studied for its impact on metabolic health, Tirzepatide serves as a significant compound for understanding glucose homeostasis and appetite regulation mechanisms in research environments." } }
           ]}
         />
         <FooterSimple
