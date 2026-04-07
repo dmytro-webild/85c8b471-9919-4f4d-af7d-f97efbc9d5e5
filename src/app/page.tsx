@@ -6,7 +6,7 @@ import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import ProductCardFour from '@/components/sections/product/ProductCardFour';
+import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 
@@ -55,16 +55,16 @@ export default function LandingPage() {
   </div>
 
   <div id="products" data-section="products">
-      <ProductCardFour
+      <ProductCardOne
       animationType="slide-up"
       textboxLayout="split-actions"
-      gridVariant="uniform-all-items-equal"
+      gridVariant="items-top-row-full-width-bottom"
       useInvertedBackground={false}
       buttons={[{ text: "Contact for Pricing", href: "/contact" }]}
       products={[
-        { id: "1", name: "Tirzepatide", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-tirzepatide-in-a-sterile-1775505032194-38e18dca.png?_wi=1", imageAlt: "Tirzepatide Vial", variant: "10mg", onProductClick: () => window.location.href = "/products/tirzepatide" },
-        { id: "2", name: "Retatrutide", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-retatrutide-in-a-sterile-1775505032674-eda4960c.png?_wi=1", imageAlt: "Retatrutide Vial", variant: "10mg", onProductClick: () => window.location.href = "/products/retatrutide" },
-        { id: "3", name: "BPC + TB 10MG", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-bpc-tb-in-a-sterile-envi-1775505031642-de9329a9.png?_wi=1", imageAlt: "BPC+TB Vial", variant: "10mg", onProductClick: () => window.location.href = "/products/bpc-tb" },
+        { id: "1", name: "Tirzepatide", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-tirzepatide-in-a-sterile-1775505032194-38e18dca.png?_wi=1", imageAlt: "Tirzepatide Vial", onProductClick: () => window.location.href = "/products/tirzepatide" },
+        { id: "2", name: "Retatrutide", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-retatrutide-in-a-sterile-1775505032674-eda4960c.png?_wi=1", imageAlt: "Retatrutide Vial", onProductClick: () => window.location.href = "/products/retatrutide" },
+        { id: "3", name: "BPC + TB 10MG", price: "Contact for pricing", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BzpXIQ8WhJ8WvoMuxtEmg0ewMo/medical-vial-of-bpc-tb-in-a-sterile-envi-1775505031642-de9329a9.png?_wi=1", imageAlt: "BPC+TB Vial", onProductClick: () => window.location.href = "/products/bpc-tb" },
       ]}
       title="Premium Research Compounds"
       description="Pharmaceutical grade compounds in high-potency concentrations."
