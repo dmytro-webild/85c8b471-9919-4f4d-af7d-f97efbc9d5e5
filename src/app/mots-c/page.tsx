@@ -7,7 +7,18 @@ import FooterSimple from '@/components/sections/footer/FooterSimple';
 
 export default function MotsCPage() {
   return (
-    <ThemeProvider>
+    <ThemeProvider 
+      defaultButtonVariant="text-stagger" 
+      defaultTextAnimation="entrance-slide" 
+      borderRadius="rounded" 
+      contentWidth="medium" 
+      sizing="medium" 
+      background="circleGradient" 
+      cardStyle="glass-elevated" 
+      primaryButtonStyle="gradient" 
+      secondaryButtonStyle="glass" 
+      headingFontWeight="normal"
+    >
       <ReactLenis root>
         <NavbarStyleApple
           navItems={[
@@ -33,6 +44,8 @@ export default function MotsCPage() {
             { title: "Compounds", items: [{ label: "Klow", href: "/klow" }, { label: "Mots-c", href: "/mots-c" }, { label: "NAD+", href: "/nad-plus" }] },
             { title: "Legal", items: [{ label: "Privacy Policy", href: "/privacy" }, { label: "Disclaimer", href: "/disclaimer" }, { label: "Terms", href: "/terms" }] },
           ]}
+          bottomLeftText="© 2025 Peptify"
+          bottomRightText="All rights reserved"
         />
       </ReactLenis>
     </ThemeProvider>
